@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus - AI-Powered Analytics for Modern Teams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <i class="fas fa-cube"></i>
+          <span>Nexus<span class="logo-dot">.</span></span>
+        </div>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-buttons">
+          <button class="btn-outline">Sign In</button>
+          <button class="btn-primary">
+            Get Started <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#features" class="mobile-link">Features</a>
+      <a href="#pricing" class="mobile-link">Pricing</a>
+      <a href="#testimonials" class="mobile-link">Testimonials</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <div class="mobile-buttons">
+        <button class="btn-outline">Sign In</button>
+        <button class="btn-primary">Get Started</button>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-content animate-slide-up">
+          <div class="hero-badge">
+            <i class="fas fa-bolt"></i>
+            <span>AI-Powered Analytics</span>
+          </div>
+          <h1>
+            Transform Data into
+            <span class="gradient-text">Actionable Insights</span>
+          </h1>
+          <p>
+            Nexus helps modern teams make smarter decisions with real-time
+            analytics, predictive modeling, and intuitive dashboards.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn-primary btn-large">
+              Start Free Trial <i class="fas fa-rocket"></i>
+            </button>
+            <button class="btn-play">
+              <i class="fas fa-play"></i>
+              Watch Demo
+            </button>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">10K+</span>
+              <span class="stat-label">Active Users</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">98%</span>
+              <span class="stat-label">Satisfaction</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">Support</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image animate-slide-up delay-1">
+          <div class="image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              alt="Dashboard Preview"
+            />
+            <div class="floating-card card-1">
+              <i class="fas fa-chart-line"></i>
+              <span>+45% Growth</span>
+            </div>
+            <div class="floating-card card-2">
+              <i class="fas fa-users"></i>
+              <span>2.5k Users</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Features</span>
+          <h2>
+            Everything You Need to
+            <span class="gradient-text">Scale Faster</span>
+          </h2>
+          <p>
+            Powerful features that help you understand your data and make better
+            decisions.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-icon">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <h3>Advanced Analytics</h3>
+            <p>
+              Get deep insights with our powerful analytics engine and
+              customizable dashboards.
+            </p>
+            <a href="#" class="feature-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="feature-card animate-on-scroll delay-1">
+            <div class="feature-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>AI Predictions</h3>
+            <p>
+              Forecast trends and identify opportunities with machine learning
+              algorithms.
+            </p>
+            <a href="#" class="feature-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="feature-card animate-on-scroll delay-2">
+            <div class="feature-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3>Real-time Data</h3>
+            <p>
+              Stream and process data in real-time for immediate insights and
+              actions.
+            </p>
+            <a href="#" class="feature-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Enterprise Security</h3>
+            <p>
+              Bank-level encryption and security protocols to protect your data.
+            </p>
+            <a href="#" class="feature-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="feature-card animate-on-scroll delay-1">
+            <div class="feature-icon">
+              <i class="fas fa-users-cog"></i>
+            </div>
+            <h3>Team Collaboration</h3>
+            <p>
+              Share insights and work together seamlessly with team features.
+            </p>
+            <a href="#" class="feature-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="feature-card animate-on-scroll delay-2">
+            <div class="feature-icon">
+              <i class="fas fa-code-branch"></i>
+            </div>
+            <h3>API Access</h3>
+            <p>Integrate with your existing tools using our powerful API.</p>
+            <a href="#" class="feature-link"
+              >Learn more <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Pricing</span>
+          <h2>
+            Simple, <span class="gradient-text">Transparent</span> Pricing
+          </h2>
+          <p>
+            Choose the perfect plan for your team. All plans include a 14-day
+            free trial.
+          </p>
+        </div>
+
+        <div class="pricing-toggle">
+          <span class="toggle-label">Monthly</span>
+          <label class="switch">
+            <input type="checkbox" id="pricingToggle" />
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label"
+            >Yearly <span class="save-badge">Save 20%</span></span
+          >
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter Plan -->
+          <div class="pricing-card animate-on-scroll">
+            <div class="card-badge">Popular</div>
+            <h3>Starter</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="amount" data-monthly="29" data-yearly="23">29</span>
+              <span class="period">/month</span>
+            </div>
+            <p class="price-description">
+              Perfect for small teams getting started
+            </p>
+            <ul class="features-list">
+              <li><i class="fas fa-check"></i> Up to 5 team members</li>
+              <li><i class="fas fa-check"></i> 10k data points/month</li>
+              <li><i class="fas fa-check"></i> Basic analytics</li>
+              <li><i class="fas fa-check"></i> Email support</li>
+              <li><i class="fas fa-check"></i> API access (100 calls/day)</li>
+            </ul>
+            <button class="btn-primary btn-block">Start Free Trial</button>
+          </div>
+
+          <!-- Professional Plan -->
+          <div class="pricing-card popular animate-on-scroll delay-1">
+            <div class="card-badge">Best Value</div>
+            <h3>Professional</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="amount" data-monthly="79" data-yearly="63">79</span>
+              <span class="period">/month</span>
+            </div>
+            <p class="price-description">
+              For growing teams with advanced needs
+            </p>
+            <ul class="features-list">
+              <li><i class="fas fa-check"></i> Up to 20 team members</li>
+              <li><i class="fas fa-check"></i> 100k data points/month</li>
+              <li><i class="fas fa-check"></i> Advanced analytics + AI</li>
+              <li><i class="fas fa-check"></i> Priority support</li>
+              <li><i class="fas fa-check"></i> API access (1000 calls/day)</li>
+              <li><i class="fas fa-check"></i> Custom dashboards</li>
+            </ul>
+            <button class="btn-primary btn-block">Start Free Trial</button>
+          </div>
+
+          <!-- Enterprise Plan -->
+          <div class="pricing-card animate-on-scroll delay-2">
+            <h3>Enterprise</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="amount" data-monthly="199" data-yearly="159"
+                >199</span
+              >
+              <span class="period">/month</span>
+            </div>
+            <p class="price-description">
+              For large organizations with complex needs
+            </p>
+            <ul class="features-list">
+              <li><i class="fas fa-check"></i> Unlimited team members</li>
+              <li><i class="fas fa-check"></i> 1M+ data points/month</li>
+              <li><i class="fas fa-check"></i> Custom AI models</li>
+              <li><i class="fas fa-check"></i> 24/7 phone support</li>
+              <li><i class="fas fa-check"></i> Unlimited API calls</li>
+              <li><i class="fas fa-check"></i> Dedicated account manager</li>
+              <li><i class="fas fa-check"></i> SSO & advanced security</li>
+            </ul>
+            <button class="btn-primary btn-block">Contact Sales</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Testimonials</span>
+          <h2>Loved by <span class="gradient-text">Innovative</span> Teams</h2>
+          <p>See what our customers say about Nexus.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card animate-on-scroll">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Nexus transformed how we analyze our data. The AI predictions
+              helped us increase revenue by 45% in just 3 months. The interface
+              is intuitive and the support team is amazing."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                alt="Sarah Johnson"
+              />
+              <div class="author-info">
+                <h4>Sarah Johnson</h4>
+                <p>CEO, TechFlow</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card animate-on-scroll delay-1">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "The real-time analytics and customizable dashboards are
+              game-changers. We can now make data-driven decisions in minutes
+              instead of days. Best investment we've made this year."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                alt="Michael Chen"
+              />
+              <div class="author-info">
+                <h4>Michael Chen</h4>
+                <p>CTO, InnovateLab</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card animate-on-scroll delay-2">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "The API integration was seamless and the team collaboration
+              features are exactly what we needed. Our productivity has
+              increased significantly since switching to Nexus."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                alt="Emily Rodriguez"
+              />
+              <div class="author-info">
+                <h4>Emily Rodriguez</h4>
+                <p>Product Lead, CloudScale</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="companies">
+          <p>Trusted by innovative companies worldwide</p>
+          <div class="company-logos">
+            <i class="fab fa-google"></i>
+            <i class="fab fa-microsoft"></i>
+            <i class="fab fa-amazon"></i>
+            <i class="fab fa-slack"></i>
+            <i class="fab fa-dropbox"></i>
+            <i class="fab fa-spotify"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info animate-on-scroll">
+            <span class="section-badge">Contact Us</span>
+            <h2>
+              Let's <span class="gradient-text">Talk</span> About Your Project
+            </h2>
+            <p>
+              Have questions about Nexus? Our team is here to help. Send us a
+              message and we'll respond within 24 hours.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h4>Email</h4>
+                  <p>hello@nexus.io</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+254705588112</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h4>Office</h4>
+                  <p>Luthuli, Nairobi</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-form animate-on-scroll delay-1">
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="John Doe"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="john@example.com"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" placeholder="Your Company" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Tell us about your project..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary btn-block">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-wrapper">
+          <h2>Ready to Transform Your Data?</h2>
+          <p>
+            Join thousands of teams already using Nexus to make better
+            decisions.
+          </p>
+          <div class="cta-buttons">
+            <button class="btn-primary btn-large">
+              Start Free Trial <i class="fas fa-rocket"></i>
+            </button>
+            <button class="btn-outline-light">Contact Sales</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-logo">
+              <i class="fas fa-cube"></i>
+              <span>Nexus.</span>
+            </div>
+            <p>
+              AI-powered analytics for modern teams. Make smarter decisions with
+              real-time data.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Product</h4>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Integrations</a>
+            <a href="#">API</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <a href="#">Documentation</a>
+            <a href="#">Support</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Stay Updated</h4>
+            <p>Subscribe to our newsletter for updates and insights.</p>
+            <div class="newsletter">
+              <input type="email" placeholder="Enter your email" />
+              <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Nexus. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
